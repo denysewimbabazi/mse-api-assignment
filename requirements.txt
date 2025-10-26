@@ -1,0 +1,6 @@
+pdfplumber
+pandas
+numpy
+psycopg2-binary
+tabula-py
+camelot-py[cv]
