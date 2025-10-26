@@ -276,7 +276,7 @@ mse-api-assignment/
 2. **Step2**: Modified the mse_pdf_csv.py so that all the pdf can be extracted. After the extraction, there has been creation of a logs folder to store unprocessed pdfs
 3. **Step3**: Creation of notebook(in notebooks folder) to create tables in the database(created in the postgresql using powershell) then load the data extracted after preprocessing them (database_creation.ipynb)
 4. **Step4**: Developed an API using python (mse_api.py) and it is saved in the main project folder
-5. **Step5**: Created a folder named 'screenshots' in the '/docs' folder. This folder contains the screenshots showing how the API scripts works from the beginning up to the last endpoints.
+5. **Step5**: Created a folder named 'screenshots' in the '/docs' folder. This folder contains the screenshots showing how the API scripts works from the beginning up to the last endpoints. To ensure recency, each screenshot shows the time when it was taken at the bottom right corner.(it shows the computer system time)
 6. **Step6**: Developed a python script(mse_api_with_ngrok.py) to Deploy the API using ngrok for live testing. I also saved related screenshots in the screenshots folder
     
     **_ngrok Links_**: 
