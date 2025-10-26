@@ -229,66 +229,44 @@ Below is the folder structure to my repository:
 
 mse-api-assignment/
 │
-├── .git/                         # Git version control data
-|
-├── .github/                      # GitHub workflows or configuration
-|
-├── .venv/                        # Virtual environment
-|
-├── __pycache__/                  # Python cache files
-|
-├── _static/                      # Static assets (images, CSS, etc.)
-|
+├── .git/ # Git version control data
+├── .github/ # GitHub workflows or configuration
+├── .venv/ # Virtual environment
+├── pycache/ # Python cache files
+├── _static/ # Static assets (images, CSS, etc.)
 │
-├── data/                         # Project data folder
-|
-│   ├── csv_files/
-│   │   └── mse-daily-data/       # Output CSVs from MSE PDF extraction
-|
-│   ├── raw_pdfs/
-│   │   └── mse-daily-reports/    # Input PDF files (daily reports)
-|
-│   └── master_csv/
-│       └── master_csv.csv        # Combined CSV (final dataset)
+├── data/ # Project data folder
+│ ├── csv_files/
+│ │ └── mse-daily-data/ # Output CSVs from MSE PDF extraction
+│ ├── raw_pdfs/
+│ │ └── mse-daily-reports/ # Input PDF files (daily reports)
+│ └── master_csv/
+│ └── master_csv.csv # Combined CSV (final dataset)
 │
-|
-├── docs/                         # Documentation or notes
-|   ├── screenshots/              # Project screenshots or demo images
-|
+├── docs/ # Documentation or notes
+├── screenshots/ # Project screenshots or demo images
 ├── logs/
-│   └── unprocessed_daily_pdfs/   # Log files for unprocessed PDFs
+│ └── unprocessed_daily_pdfs/ # Log files for unprocessed PDFs
 │
-├── notebooks/                    # Jupyter notebooks for exploration   
-|    |___database_creation.ipynb   # Notebook for creating database and tables and loading data
-|
-├── src/                          # Source code folder
-│   ├── utils/
-│   │   └── mse_pdf_csv.py        # Script for PDF-to-CSV extraction modified
-│   └── (other modules here)
-|
+├── notebooks/ # Jupyter notebooks for exploration
+│ └── database_creation.ipynb # Notebook for creating database and loading data
 │
-├── .env                          # Environment variables (local)
-|
-├── .env.example                  # Example environment file
-|
-├── .gitignore                    # Git ignore rules
-|
-├── .pre-commit-config.yaml       # Pre-commit hooks config
-|
-├── CITATION.cff                  # Citation metadata
-|
-├── LICENSE                       # License file
-|
-├── mse_api.py                    # Main API script
-|
-├── mse_api_with_grok.py          # Alternate API version using ngrok
-|
-├── pyproject.toml                # Project config / dependencies
-|
-├── README.md                     # Project readme
-|
-├── requirements.txt              # Python dependencies list
-
+├── src/ # Source code folder
+│ ├── utils/
+│ │ └── mse_pdf_csv.py # Script for PDF-to-CSV extraction
+│ └── (other modules here)
+│
+├── .env # Environment variables (local)
+├── .env.example # Example environment file
+├── .gitignore # Git ignore rules
+├── .pre-commit-config.yaml # Pre-commit hooks config
+├── CITATION.cff # Citation metadata
+├── LICENSE # License file
+├── mse_api.py # Main API script
+├── mse_api_with_grok.py # Alternate API version using ngrok
+├── pyproject.toml # Project config / dependencies
+├── README.md # Project readme
+└── requirements.txt # Python dependencies list
 
 
 1. **Step1**: I downloaded the pdf reports and saved them as shown in the above structure
