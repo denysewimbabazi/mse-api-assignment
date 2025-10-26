@@ -227,6 +227,8 @@ Showcase your functional API using detailed visual documentation. Create a `scre
 
 Below is the folder structure to my repository:
 
+
+```
 mse-api-assignment/
 │
 ├── .git/ # Git version control data
@@ -267,6 +269,7 @@ mse-api-assignment/
 ├── pyproject.toml # Project config / dependencies
 ├── README.md # Project readme
 └── requirements.txt # Python dependencies list
+```
 
 
 1. **Step1**: I downloaded the pdf reports and saved them as shown in the above structure
